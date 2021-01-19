@@ -1,0 +1,29 @@
+0 Divergences 
+Failed validation 
+Computed from 80 by 296 log-likelihood matrix
+
+         Estimate       SE
+elpd_loo  -654.30    37.37
+p_loo       47.53        -
+
+There has been a warning during the calculation. Please check the results.
+------
+
+Pareto k diagnostic values:
+                         Count   Pct.
+(-Inf, 0.5]   (good)      272   91.9%
+ (0.5, 0.7]   (ok)         20    6.8%
+   (0.7, 1]   (bad)         2    0.7%
+   (1, Inf)   (very bad)    2    0.7%
+
+           mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
+pa        0.241  0.053   0.152    0.315  ...    90.0      84.0      43.0   1.09
+pu        0.746  0.036   0.700    0.804  ...    65.0      68.0      34.0   1.04
+mu        0.124  0.015   0.096    0.148  ...    56.0      61.0      46.0   0.99
+mus       0.192  0.029   0.133    0.239  ...   121.0     137.0      81.0   1.00
+gamma     0.366  0.062   0.262    0.475  ...    91.0      97.0      59.0   1.01
+Is_begin  0.847  0.658   0.002    2.072  ...    69.0      46.0      14.0   0.99
+Ia_begin  2.107  1.296   0.040    4.382  ...    78.0      89.0      60.0   1.03
+E_begin   1.511  1.358   0.012    4.037  ...    18.0      15.0      40.0   1.16
+
+[8 rows x 11 columns]

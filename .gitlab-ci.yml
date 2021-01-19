@@ -1,0 +1,14 @@
+pages:
+  stage: deploy
+  script:
+  - mkdir .public
+  - find . -maxdepth 4 -type f -name "*_predict.png" -delete
+  - find . -maxdepth 4 -type f -name "*.txt" -delete
+  - find ./results/latest -maxdepth 4 -type f -name "*.csv" -delete
+  - cp -r * .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
