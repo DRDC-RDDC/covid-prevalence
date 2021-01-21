@@ -1,29 +1,29 @@
 0 Divergences 
-Failed validation 
-Computed from 80 by 295 log-likelihood matrix
+Passed validation 
+Computed from 80 by 311 log-likelihood matrix
 
          Estimate       SE
-elpd_loo  -714.17    25.13
-p_loo       23.35        -
+elpd_loo  -820.13    31.36
+p_loo       28.52        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      274   92.9%
- (0.5, 0.7]   (ok)         17    5.8%
-   (0.7, 1]   (bad)         4    1.4%
-   (1, Inf)   (very bad)    0    0.0%
+(-Inf, 0.5]   (good)      285   91.6%
+ (0.5, 0.7]   (ok)         22    7.1%
+   (0.7, 1]   (bad)         3    1.0%
+   (1, Inf)   (very bad)    1    0.3%
 
            mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa        0.249  0.051   0.173    0.339  ...   114.0     100.0      56.0   1.01
-pu        0.778  0.041   0.704    0.841  ...    62.0      64.0      59.0   1.06
-mu        0.143  0.023   0.107    0.184  ...    70.0      72.0      83.0   0.99
-mus       0.200  0.034   0.148    0.264  ...    46.0      63.0      37.0   1.02
-gamma     0.286  0.039   0.220    0.361  ...   107.0     104.0      99.0   1.02
-Is_begin  1.646  1.320   0.046    4.007  ...   116.0      76.0      59.0   1.10
-Ia_begin  5.746  3.287   0.050   11.811  ...   105.0      89.0      43.0   0.98
-E_begin   4.737  4.254   0.114   13.422  ...   105.0      80.0      60.0   1.02
+pa        0.248  0.056   0.154    0.336  ...    64.0      69.0      40.0   1.04
+pu        0.800  0.051   0.720    0.885  ...    63.0      57.0      43.0   0.99
+mu        0.136  0.023   0.100    0.182  ...    63.0      63.0      43.0   1.01
+mus       0.199  0.041   0.130    0.276  ...   152.0     129.0      40.0   1.01
+gamma     0.285  0.051   0.185    0.368  ...   152.0     152.0      93.0   1.01
+Is_begin  1.713  1.786   0.000    5.047  ...    59.0      23.0      41.0   1.06
+Ia_begin  5.406  3.513   0.144   12.230  ...    29.0      23.0      34.0   1.04
+E_begin   4.194  3.669   0.025   11.368  ...    42.0      35.0      40.0   1.03
 
 [8 rows x 11 columns]
