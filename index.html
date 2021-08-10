@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>COVID-19 Prevalence Map</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  border-color: #ddd;
+  border-style: solid;
+}
+
+header p {
+    font-size: 16px;
+    text-align: left;
+}
+
+footer {
+    background-color: #c5c6c7;
+    color: black;
+    padding: 15px;
+    background-image: linear-gradient(#c5c6c7,#c5c6c7 25%,#9c9c9c);
+  }
+
+ul {
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+li {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+</style>
+</head>
+<body class="">
+<header>
+  <img src="img/DRDC.png" style="float: left;">
+  <h3>COVID-19 Point-Prevalence Estimation Map</h3>
+  <p style="padding:5px;border-style:solid;border-color:lightblue">The Information is licensed as is, and the Information Provider excludes all representations, warranties, obligations, and liabilities, whether express or implied, to the maximum extent permitted by law.</p>
+  <p>
+    Last updated <b><span id='lastUpdated'>2021-August-10</span></b>
+      Once the model is tuned to the case detections of the population, a prediction is provided to provide an indication of the expected future prevalence and cases.
+    </p>
+  </p>
+  <p>
+    <b>Legend</b><br/>
+    <p>The colour scale, from lighter to darker (see bar at top of map) indicates the point prevalence estimate as of the time of the last map update. The arrows indicate the following:</p>
+    <p>
+      <img width=12px height=12px src='./img/Red_Arrow_Up.svg'> This region has high prevalence and is predicted to increase. (prevalence &gt; 0.5%; 50% predicted 2-week increase)
+    </p>
+    <p>
+      <img width=12px height=12px src='./img/warning-yellow.svg'> This region has low prevalence but is predicted to increase. (prevalence &lt; 0.5%; 50% predicted 2-week increase)
+    </p>
+    <p>
+      <img width=12px height=12px src='./img/Green_Arrow_Down.svg'> This region has high prevalence but is predicted to decrease. (prevalence &gt; 0.5%; 20% predicted 2-week decrease)
+    </p>
+  </p>
+  <p>
+    <b>Interpretation</b><br/>
+    <p>
+      This tool was developed at the requests of the Canadian Forces Health Services. Estimates made within it are intended to be used by medical advisors, e.g. to support local risk assessment and related advice provided to commanders. The estimates also are intended to support use of other tools, e.g., the COVID-19 tool for estimating risk of infections among a group. This tool IS NOT intended as a standalone decision-making product in the absence of medical advice, and IS NOT to be used in this way.
+    </p>
+  </p>
+  <p>
+    <b>Notes</b><br/>
+    <ul>
+      <li>
+        Analysis of each region is updated at varying intervals.  Regions with higher prevalence, or changing prevalence are updated more frequently.  Each region should be updated at least once every 7 days.
+      </li>
+      <li>
+        This tool continues to be optimized. In some cases, estimates are not provided for an area, e.g., because the available data do not allow robust estimation of point prevalence. We are working to address such gaps on a continual basis.
+      </li>
+      <li>
+        All prevalence values are in percent of population infected (exposed or infectious).
+      </li>
+    </ul>
+  </p>
+  <p>
+    Download numeric estimates for all areas considered in CSV format: <a href="https://stevenhorn.gitlab.io/covid-prevalence/results/latest_results.csv">latest results</a>,
+    <a href="https://stevenhorn.gitlab.io/covid-prevalence/latest_Canada.csv">Canada results</a>,
+    <a href="https://stevenhorn.gitlab.io/covid-prevalence/timeseries_Canada.csv">Canada timeseries</a>
+    <!-- | <a href="https://stevenhorn.gitlab.io/covid-prevalence/results/latest_timeseries.csv">timeseries</a> | geojson (soon) -->
+  </p>
+  <p>
+    If you are experiencing difficulties viewing the map, please try using Chrome.
+  </p>
+</header>
+<div class="iframe-container">
+    <iframe src="https://stevenhorn.gitlab.io/covid-prevalence/map.html" allowfullscreen style="border:none;width:100%;height:100%;"></iframe>
+</div>
+<br/>
+<div>
+  <p>
+    Please report any issues <a href="mailto:incoming+stevenhorn-covid-prevalence-19341877-issue-@incoming.gitlab.com">by email.</a>
+  </p>
+  <p>
+    Source code available on <a href="https://github.com/DRDC-RDDC/covid-prevalence">Github.</a>
+  </p>
+</div>
+<footer>
+&copy; Her Majesty the Queen in Right of Canada, as represented by the Minister of National Defence, 2020. <a href="https://open.canada.ca/en/open-government-licence-canada">License</a>
+<!-- <br/>
+<img height=20px src="img/Canada.png" style="float: right;"> -->
+</footer>
+</body>
+</html>
