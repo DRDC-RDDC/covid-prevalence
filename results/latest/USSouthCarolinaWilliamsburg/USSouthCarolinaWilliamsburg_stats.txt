@@ -1,4 +1,13 @@
 0 Divergences 
+<<<<<<< HEAD
+Passed validation 
+2021-08-05 date of last case count
+Computed from 80 by 509 log-likelihood matrix
+
+         Estimate       SE
+elpd_loo -1513.01    30.53
+p_loo       33.39        -
+=======
 Failed validation 
 2021-07-19 date of last case count
 Computed from 80 by 492 log-likelihood matrix
@@ -6,12 +15,29 @@ Computed from 80 by 492 log-likelihood matrix
          Estimate       SE
 elpd_loo -1461.18    30.61
 p_loo       33.74        -
+>>>>>>> 73f49375a508e71b2c40c35408c56573bf8ffcc8
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
+<<<<<<< HEAD
+(-Inf, 0.5]   (good)      478   93.9%
+ (0.5, 0.7]   (ok)         27    5.3%
+   (0.7, 1]   (bad)         4    0.8%
+   (1, Inf)   (very bad)    0    0.0%
+
+           mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
+pa        0.193  0.034   0.150    0.255  ...    81.0      38.0      20.0   1.05
+pu        0.710  0.009   0.700    0.722  ...    41.0      16.0      49.0   1.10
+mu        0.108  0.017   0.086    0.140  ...    34.0      39.0      60.0   1.07
+mus       0.171  0.025   0.131    0.222  ...   152.0     152.0      99.0   0.98
+gamma     0.247  0.035   0.194    0.304  ...    86.0      95.0      94.0   1.02
+Is_begin  0.522  0.505   0.002    1.453  ...    83.0      34.0      15.0   1.07
+Ia_begin  0.848  0.839   0.020    2.525  ...    76.0      72.0      58.0   0.99
+E_begin   0.362  0.383   0.001    0.912  ...   103.0      61.0      48.0   1.05
+=======
 (-Inf, 0.5]   (good)      460   93.5%
  (0.5, 0.7]   (ok)         25    5.1%
    (0.7, 1]   (bad)         6    1.2%
@@ -26,5 +52,6 @@ gamma     0.207  0.039   0.137    0.276  ...    15.0      14.0      38.0   1.12
 Is_begin  0.658  0.631   0.037    2.108  ...    96.0     152.0      93.0   0.99
 Ia_begin  1.152  1.156   0.032    3.075  ...   103.0     143.0      91.0   1.02
 E_begin   0.593  0.706   0.009    1.759  ...   105.0     152.0      59.0   0.98
+>>>>>>> 73f49375a508e71b2c40c35408c56573bf8ffcc8
 
 [8 rows x 11 columns]

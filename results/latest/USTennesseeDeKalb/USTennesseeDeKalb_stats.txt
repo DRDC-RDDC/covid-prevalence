@@ -1,4 +1,13 @@
 0 Divergences 
+<<<<<<< HEAD
+Passed validation 
+2021-08-05 date of last case count
+Computed from 80 by 509 log-likelihood matrix
+
+         Estimate       SE
+elpd_loo -1497.37    47.48
+p_loo       43.11        -
+=======
 Failed validation 
 2021-07-19 date of last case count
 Computed from 80 by 492 log-likelihood matrix
@@ -6,12 +15,29 @@ Computed from 80 by 492 log-likelihood matrix
          Estimate       SE
 elpd_loo -1448.33    48.33
 p_loo       41.83        -
+>>>>>>> 73f49375a508e71b2c40c35408c56573bf8ffcc8
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
+<<<<<<< HEAD
+(-Inf, 0.5]   (good)      480   94.3%
+ (0.5, 0.7]   (ok)         24    4.7%
+   (0.7, 1]   (bad)         2    0.4%
+   (1, Inf)   (very bad)    3    0.6%
+
+           mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
+pa        0.249  0.050   0.166    0.332  ...    95.0      77.0      59.0   1.04
+pu        0.736  0.022   0.700    0.775  ...    23.0      20.0      22.0   1.11
+mu        0.184  0.047   0.127    0.294  ...     5.0       5.0      34.0   1.40
+mus       0.211  0.039   0.146    0.277  ...    10.0      11.0      47.0   1.15
+gamma     0.246  0.036   0.178    0.306  ...    74.0      76.0      43.0   1.00
+Is_begin  0.768  0.642   0.007    1.733  ...    80.0      80.0      67.0   1.04
+Ia_begin  1.705  1.365   0.080    4.957  ...    19.0      17.0      60.0   1.12
+E_begin   0.734  0.574   0.022    1.666  ...    16.0      13.0      59.0   1.13
+=======
 (-Inf, 0.5]   (good)      469   95.3%
  (0.5, 0.7]   (ok)         18    3.7%
    (0.7, 1]   (bad)         4    0.8%
@@ -26,5 +52,6 @@ gamma     0.247  0.042   0.180    0.327  ...    61.0      56.0      70.0   1.02
 Is_begin  0.669  0.649   0.002    1.759  ...    84.0      56.0      23.0   1.04
 Ia_begin  1.348  1.429   0.003    4.238  ...    60.0      50.0      39.0   1.04
 E_begin   0.534  0.811   0.002    1.696  ...    54.0      14.0      15.0   1.10
+>>>>>>> 73f49375a508e71b2c40c35408c56573bf8ffcc8
 
 [8 rows x 11 columns]
