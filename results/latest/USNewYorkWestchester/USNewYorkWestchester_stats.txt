@@ -1,30 +1,32 @@
-21 Divergences 
+1 Divergences 
 Passed validation 
-2021-10-13 date of last case count
-Computed from 80 by 578 log-likelihood matrix
+2021-10-26 date of last case count
+covid_prevalence version: 0.3.0
+
+Computed from 80 by 591 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -3027.53    53.46
-p_loo       54.05        -
+elpd_loo -3074.99    54.62
+p_loo       47.01        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      448   77.5%
- (0.5, 0.7]   (ok)         81   14.0%
-   (0.7, 1]   (bad)        45    7.8%
-   (1, Inf)   (very bad)    4    0.7%
+(-Inf, 0.5]   (good)      525   88.8%
+ (0.5, 0.7]   (ok)         54    9.1%
+   (0.7, 1]   (bad)        10    1.7%
+   (1, Inf)   (very bad)    2    0.3%
 
              mean       sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa          0.185    0.033    0.151  ...      37.0      56.0   1.11
-pu          0.709    0.008    0.700  ...      71.0      49.0   1.07
-mu          0.095    0.013    0.065  ...      29.0      30.0   1.07
-mus         0.165    0.021    0.133  ...      75.0      60.0   1.05
-gamma       0.419    0.073    0.299  ...      32.0      56.0   1.06
-Is_begin  181.623  144.363   25.575  ...      23.0      39.0   1.07
-Ia_begin  988.491  341.879  475.705  ...      33.0      17.0   1.07
-E_begin   700.394  317.164  117.505  ...      44.0      83.0   1.01
+pa          0.171    0.017    0.151  ...      72.0      60.0   1.01
+pu          0.707    0.006    0.700  ...      27.0      65.0   1.07
+mu          0.090    0.010    0.075  ...      39.0      60.0   1.04
+mus         0.168    0.029    0.122  ...      72.0      85.0   1.01
+gamma       0.430    0.068    0.312  ...     152.0      70.0   0.99
+Is_begin  234.796  166.479   16.348  ...      33.0      39.0   1.09
+Ia_begin  885.601  386.481  290.896  ...      33.0      59.0   1.10
+E_begin   570.189  402.665    2.631  ...      25.0      22.0   1.08
 
 [8 rows x 11 columns]

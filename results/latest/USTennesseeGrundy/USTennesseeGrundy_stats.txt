@@ -1,30 +1,32 @@
 0 Divergences 
 Failed validation 
-2021-10-12 date of last case count
-Computed from 80 by 577 log-likelihood matrix
+2021-10-26 date of last case count
+covid_prevalence version: 0.3.0
+
+Computed from 80 by 591 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -1564.69    42.11
-p_loo       34.84        -
+elpd_loo -1610.03    42.85
+p_loo       39.68        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      527   91.3%
- (0.5, 0.7]   (ok)         41    7.1%
-   (0.7, 1]   (bad)         8    1.4%
+(-Inf, 0.5]   (good)      562   95.1%
+ (0.5, 0.7]   (ok)         23    3.9%
+   (0.7, 1]   (bad)         5    0.8%
    (1, Inf)   (very bad)    1    0.2%
 
            mean     sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa        0.182  0.025   0.152    0.232  ...    81.0      71.0      62.0   1.01
-pu        0.714  0.010   0.701    0.731  ...    73.0      75.0      59.0   1.00
-mu        0.105  0.014   0.079    0.130  ...     7.0       7.0      60.0   1.31
-mus       0.176  0.028   0.122    0.225  ...    20.0      21.0      40.0   1.10
-gamma     0.254  0.047   0.174    0.326  ...    13.0      12.0      59.0   1.15
-Is_begin  0.888  0.815   0.010    2.122  ...    43.0      48.0      43.0   1.09
-Ia_begin  1.586  1.423   0.017    4.101  ...    77.0      55.0      40.0   1.02
-E_begin   0.572  0.718   0.005    1.894  ...    63.0      54.0      60.0   0.98
+pa        0.186  0.022   0.152    0.222  ...   101.0      95.0      60.0   1.00
+pu        0.711  0.008   0.700    0.725  ...    72.0      55.0      60.0   0.99
+mu        0.110  0.017   0.081    0.142  ...    20.0      24.0      53.0   1.09
+mus       0.178  0.027   0.130    0.225  ...    68.0      70.0      37.0   1.00
+gamma     0.279  0.045   0.208    0.371  ...    88.0      82.0      45.0   0.99
+Is_begin  0.714  0.710   0.011    2.375  ...    80.0      52.0      46.0   1.02
+Ia_begin  1.495  1.683   0.000    4.658  ...   116.0     152.0      96.0   1.00
+E_begin   0.558  0.667   0.000    1.878  ...   117.0     121.0      97.0   1.00
 
 [8 rows x 11 columns]
