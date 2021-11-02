@@ -1,4 +1,4 @@
-13 Divergences 
+19 Divergences 
 Passed validation 
 2021-10-30 date of last case count
 covid_prevalence version: 0.3.0
@@ -6,27 +6,27 @@ covid_prevalence version: 0.3.0
 Computed from 80 by 596 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -3683.27    85.18
-p_loo      104.77        -
+elpd_loo -3676.78    85.63
+p_loo      116.68        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      530   88.9%
- (0.5, 0.7]   (ok)         54    9.1%
-   (0.7, 1]   (bad)         9    1.5%
+(-Inf, 0.5]   (good)      507   85.1%
+ (0.5, 0.7]   (ok)         63   10.6%
+   (0.7, 1]   (bad)        23    3.9%
    (1, Inf)   (very bad)    3    0.5%
 
              mean       sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa          0.310    0.051    0.214  ...       6.0      43.0   1.36
-pu          0.890    0.014    0.868  ...       4.0      53.0   1.54
-mu          0.097    0.012    0.081  ...       5.0      22.0   1.36
-mus         0.209    0.034    0.158  ...       8.0      60.0   1.21
-gamma       0.616    0.142    0.392  ...       6.0      38.0   1.35
-Is_begin   55.818   28.820    5.244  ...      69.0      60.0   1.05
-Ia_begin  196.895   42.520  125.191  ...      10.0      19.0   1.16
-E_begin   726.197  178.563  478.247  ...      75.0      57.0   0.99
+pa          0.316    0.045    0.219  ...       4.0      22.0   1.77
+pu          0.882    0.022    0.845  ...       5.0      32.0   1.54
+mu          0.105    0.021    0.080  ...       4.0      43.0   1.63
+mus         0.198    0.024    0.158  ...      53.0      19.0   1.11
+gamma       0.577    0.150    0.348  ...       4.0      42.0   1.66
+Is_begin   62.006   34.346    2.809  ...      32.0      22.0   1.03
+Ia_begin  220.773   54.536  124.862  ...      40.0      31.0   1.03
+E_begin   807.872  233.088  424.972  ...       8.0      54.0   1.25
 
 [8 rows x 11 columns]
