@@ -1,32 +1,32 @@
 0 Divergences 
 Passed validation 
-2021-11-07 date of last case count
+2021-11-21 date of last case count
 covid_prevalence version: 0.3.0
 
-Computed from 80 by 604 log-likelihood matrix
+Computed from 80 by 618 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -3305.96    31.31
-p_loo       39.46        -
+elpd_loo -3382.16    32.53
+p_loo       45.74        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      535   88.6%
- (0.5, 0.7]   (ok)         59    9.8%
-   (0.7, 1]   (bad)        10    1.7%
+(-Inf, 0.5]   (good)      530   85.8%
+ (0.5, 0.7]   (ok)         72   11.7%
+   (0.7, 1]   (bad)        16    2.6%
    (1, Inf)   (very bad)    0    0.0%
 
             mean      sd  hdi_3%  hdi_97%  ...  ess_sd  ess_bulk  ess_tail  r_hat
-pa         0.242   0.056   0.156    0.337  ...    40.0      60.0      42.0   1.13
-pu         0.789   0.044   0.709    0.867  ...    49.0      50.0      56.0   1.03
-mu         0.157   0.041   0.099    0.232  ...     5.0       5.0      40.0   1.46
-mus        0.216   0.029   0.167    0.270  ...    44.0      51.0      87.0   1.06
-gamma      0.300   0.043   0.232    0.379  ...   148.0     152.0      65.0   1.00
-Is_begin   8.455   5.196   0.424   19.044  ...    87.0      67.0      59.0   1.01
-Ia_begin  17.679  13.910   0.213   43.588  ...    44.0      29.0      24.0   1.12
-E_begin   17.894  17.846   0.210   49.209  ...    32.0      38.0      31.0   1.05
+pa         0.236   0.059   0.155    0.343  ...    52.0      51.0      43.0   1.02
+pu         0.795   0.051   0.718    0.893  ...    18.0      21.0      16.0   1.03
+mu         0.185   0.041   0.136    0.270  ...     3.0       3.0      14.0   2.10
+mus        0.219   0.038   0.142    0.284  ...    58.0      59.0      59.0   1.01
+gamma      0.309   0.053   0.232    0.416  ...    27.0      28.0      60.0   1.04
+Is_begin   8.518   5.188   0.973   17.785  ...    44.0      44.0      61.0   1.04
+Ia_begin  20.379  11.798   1.414   39.158  ...    30.0      31.0      22.0   1.04
+E_begin   23.372  21.869   0.188   65.954  ...    33.0      28.0      46.0   1.09
 
 [8 rows x 11 columns]
