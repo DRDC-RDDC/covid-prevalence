@@ -1,32 +1,32 @@
-0 Divergences 
+1 Divergences 
 Passed validation 
-2021-11-27 date of last case count
+2021-11-28 date of last case count
 covid_prevalence version: 0.3.0
 
-Computed from 80 by 624 log-likelihood matrix
+Computed from 80 by 625 log-likelihood matrix
 
          Estimate       SE
-elpd_loo -4296.59    39.59
-p_loo       66.15        -
+elpd_loo -4289.58    40.99
+p_loo       68.32        -
 
 There has been a warning during the calculation. Please check the results.
 ------
 
 Pareto k diagnostic values:
                          Count   Pct.
-(-Inf, 0.5]   (good)      547   87.7%
- (0.5, 0.7]   (ok)         66   10.6%
-   (0.7, 1]   (bad)        11    1.8%
-   (1, Inf)   (very bad)    0    0.0%
+(-Inf, 0.5]   (good)      548   87.7%
+ (0.5, 0.7]   (ok)         64   10.2%
+   (0.7, 1]   (bad)        10    1.6%
+   (1, Inf)   (very bad)    3    0.5%
 
              mean       sd   hdi_3%  ...  ess_bulk  ess_tail  r_hat
-pa          0.312    0.048    0.215  ...       7.0      60.0   1.25
-pu          0.891    0.014    0.858  ...       5.0      33.0   1.47
-mu          0.180    0.047    0.122  ...       4.0      14.0   1.71
-mus         0.177    0.030    0.128  ...      56.0      65.0   1.07
-gamma       0.333    0.051    0.260  ...      10.0      60.0   1.17
-Is_begin   97.501   52.794   18.496  ...      88.0      80.0   1.02
-Ia_begin  305.400  105.411  147.566  ...      70.0      93.0   1.00
-E_begin   792.771  386.941  195.578  ...      23.0      14.0   1.07
+pa          0.290    0.060    0.169  ...       5.0      15.0   1.42
+pu          0.856    0.062    0.737  ...       4.0      20.0   1.56
+mu          0.161    0.022    0.126  ...       8.0      58.0   1.26
+mus         0.174    0.036    0.115  ...     115.0      59.0   1.05
+gamma       0.314    0.058    0.214  ...       6.0      59.0   1.30
+Is_begin   90.748   46.040   22.210  ...      35.0      21.0   1.05
+Ia_begin  254.229   85.296   86.887  ...      15.0      59.0   1.13
+E_begin   562.056  302.484  118.272  ...       7.0      59.0   1.27
 
 [8 rows x 11 columns]
